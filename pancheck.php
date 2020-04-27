@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: uk_checkpan
-Description: 检查文章内部百度链接是否有效（seven b2通用）
+Description: 检查文章正文内容中百度网盘链接是否有效
 Author: 3xs
 Version: 1.6
-Author URI: https://www.affme.cn/
+Author URI: #
 */
 function add_panscheck_column($columns) {   
     $columns['panscheck'] = '资源列表';   
